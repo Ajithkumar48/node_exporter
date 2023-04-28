@@ -5,7 +5,7 @@ SERVER=$2
 SSH_USER=$3
 
 # Set the Source directory with WORKSPACE
-SOURCE_DIR="${WORKSPACE}"
+SOURCE_DIR="${WORKSPACE}/node_exporter"
 echo "Source folder: ${SOURCE_DIR}"
 
 # Set the destination directory with SSH_USER
